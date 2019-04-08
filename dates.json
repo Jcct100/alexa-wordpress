@@ -1,0 +1,172 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.0.0"
+        }
+    ],
+    "resources": [],
+    "styles": {
+    },
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+            "when": "${viewport.shape == 'round'}",
+            "type": "Frame",
+            "backgroundColor": "#333333",
+            "items": [
+                {
+                    "type": "Container",
+                    "direction": "column",
+                    "width": "100vw",
+                    "height": "100vh",
+                    "alignItems": "center",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "item": {
+
+                            "type": "AlexaHeader",
+                            "headerAttributionImage": "https://s3-eu-west-1.amazonaws.com/berkhamstedschoolsmallimage/download_copy_2.png"
+
+                            }
+                        },
+                        {
+                            "type": "ScrollView",
+                            "height": "100vh",
+                            "shrink": 1,
+                            "item": {
+                                "type": "Text",
+                                "text": "${payload.myDocumentData.response}",
+                                "paddingTop": "30px",
+                                "textAlign": "center",
+                                "paddingBottom": "30px",
+                                "paddingRight": "30px",
+                                "paddingLeft": "30px"
+                            }
+                        }
+
+                    ]
+                }
+            ]
+        }
+
+            ,{
+                "type": "Frame",
+                "width": "100vw",
+                "height": "100vh",
+                "backgroundColor": "#333333",
+                "items": [
+                    {
+                        "type": "Container",
+                        "direction": "row",
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "grow": 1,
+                        "item": [
+                            {
+                            "type": "Frame",
+                            "backgroundColor": "#c8ddec",
+                            "height": "100vh",
+                            "width": "40vw",
+                            "items": [
+                            {
+                            "type": "Container",
+                            "paddingLeft": 40,
+                            "paddingTop": 40,
+                            "items": [
+                            {
+                                "type": "Image",
+                                "source": "https://s3-eu-west-1.amazonaws.com/berkhamstedschoolsmallimage/A%26S+Logo+Colour+.png",
+                                "width": 269,
+                                "height": 160
+                            },
+                            {
+                                "type": "Text",
+                                "text": "<b>Address</b>",
+                                "fontSize": "20px",
+                                "paddingTop": 50,
+                                "color": "#333333"
+                            },
+                            {
+                                "type": "Text",
+                                "text": "Overton House, 133 High Street,\nBerkhamsted \nHertfordshire \nHP4 2DJ",
+                                "fontSize": "20px",
+                                "opacity": 0.9,
+                                "color": "#333333"
+                            },
+                            {
+                                "type": "Text",
+                                "text": "<b>Email</b>",
+                                "fontSize": "20px",
+                                "paddingTop": 30,
+                                "color": "#333333"
+                            },
+                            {
+                                "type": "Text",
+                                "text": "enquiries@berkhamsted.com",
+                                "fontSize": "20px",
+                                "opacity": 0.9,
+                                "color": "#333333"
+                            },
+                            {
+                                "type": "Text",
+                                "text": "<b>Telephone</b>",
+                                "fontSize": "20px",
+                                "color": "#333333"
+                            },
+                            {
+                                "type": "Text",
+                                "text": "01442 358000",
+                                "fontSize": "20px",
+                                "opacity": 0.9,
+                                "color": "#333333"
+                               }
+                              ]
+                             }
+                            ]
+                            },
+
+                            {
+                                "type": "ScrollView",
+                                "height": "100vh",
+                                "shrink": 1,
+                                "items":
+
+                                    {
+                                        "type": "Container",
+                                        "direction": "column",
+                                        "item": {
+                                            "type": "Text",
+                                            "text": "${payload.myDocumentData.response}",
+                                            "paddingTop": "30px",
+                                            "textAlign": "center",
+                                            "paddingBottom": "30px",
+                                            "paddingRight": "30px",
+                                            "paddingLeft": "30px"
+                                    }
+                                    }
+
+
+
+
+
+
+                                }
+
+
+                        ]
+
+                    }
+                ]
+            }
+        ]
+    }
+}

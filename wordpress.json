@@ -1,0 +1,65 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "pace questions",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "no",
+                        "end",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "goodbye",
+                        "thank you",
+                        "quit",
+                        "I'm done",
+                        "no",
+                        "that's all",
+                        "thanks I'm done",
+                        "I don't have anymore questions"
+                    ]
+                },
+                {
+                    "name": "questionOne",
+                    "slots": [],
+                    "samples": [
+                        "can you integrate wordpress with an alexa device"
+                    ]
+                },
+                {
+                    "name": "questionTwo",
+                    "slots": [],
+                    "samples": [
+                        "can you use wordpress to manage content for future digital channels"
+                    ]
+                },
+                {
+                    "name": "questionThree",
+                    "slots": [],
+                    "samples": [
+                        "how easy is it to update the content alexa is using"
+                    ]
+                },
+                {
+                    "name": "questionFour",
+                    "slots": [],
+                    "samples": [
+                        "what else can i do with alexa and wordpress"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

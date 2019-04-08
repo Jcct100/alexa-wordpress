@@ -1,0 +1,702 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "addey and stanhope school",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "ReadTermDates",
+                    "slots": [
+                        {
+                            "name": "season",
+                            "type": "season",
+                            "samples": [
+                                "{season}"
+                            ]
+                        },
+                        {
+                            "name": "year",
+                            "type": "year",
+                            "samples": [
+                                "{year}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "Alexa give me some information about term dates ",
+                        "alexa read term dates",
+                        "when do the children go back to school",
+                        "when do the kids go back to school",
+                        "When are the children out of school",
+                        "When are the children off school",
+                        "When are the kids out of school",
+                        "When are the kids off school",
+                        "When are the holidays",
+                        "give me when do the holidays start for borders",
+                        "tell me when do the holidays start for borders",
+                        "give me when do the holidays start for borders in {year}",
+                        "tell me when do the holidays start for borders in {year}",
+                        "give in the holidays in {year}",
+                        "tell me the holidays in {year}",
+                        "when do the holidays start in {year}",
+                        "when do the holidays start {year}",
+                        "when do the holidays start ",
+                        "when do the {season} start for borders ",
+                        "{season}",
+                        "when do the holidays start for borders",
+                        "when do the {season} holidays start for boarders in {year}",
+                        "{season} term dates for boarders in {year}",
+                        "whens the {season} holidays for boarders in {year}",
+                        "{year} {season} dates for boarders",
+                        "read the {season} term dates for boarders for {year}",
+                        "the {season} term dates for boarders in {year}",
+                        "give me the {season} term dates for boarders for {year}",
+                        "tell me the {season} term dates for boarders for {year}",
+                        "{season} {year} for boarders",
+                        "read the {season} holiday dates for boarders",
+                        "tell me the {season} holiday dates for boarders",
+                        "give me the {season} holiday dates for boarders",
+                        "the {season} holiday dates for boarders",
+                        "{season} holidays for boarders",
+                        "{season} term dates for boarders",
+                        "when do the {season} holidays start for boarders",
+                        "the term dates for {season} {year}",
+                        "read the term dates for {season} {year}",
+                        "what are the term dates for {season} {year}",
+                        "tell me the term dates for {season} {year}",
+                        "give me the term dates for {season} {year}",
+                        "dates for {season} {year}",
+                        "what are the dates for {season} holidays",
+                        "give me the term dates for {season} holidays",
+                        "when do the {season} holidays start",
+                        "{season} holidays",
+                        "the term dates for {season} holidays",
+                        "the term dates for {season} {year} for boarders",
+                        "the term dates for {season} for boarders",
+                        "the term dates for {season} holidays {year}",
+                        "read term dates"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ReadBankHolidays",
+                    "slots": [
+                        {
+                            "name": "bankseason",
+                            "type": "season",
+                            "samples": [
+                                "{bankseason}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "Alexa give me some information about bank holidays",
+                        "alexa read bank holidays",
+                        "when is bank holiday",
+                        "please give me the next bank holiday",
+                        "please tell me the next bank holidays",
+                        "give me the next bank holiday",
+                        "tell me when is the next bank holiday",
+                        "tell me the next bank holiday",
+                        "when is the next bank holiday",
+                        "when the {bankseason} bank holiday starts",
+                        "what the {bankseason} bank holiday is",
+                        "when the {bankseason} bank holiday is",
+                        "whats the {bankseason} bank holiday",
+                        "what is the {bankseason} bank holiday",
+                        "Can you tell me when the next bank holiday is please",
+                        "Tell me when the next bank holiday is",
+                        "Bank holiday",
+                        "When are the bank holidays in {bankseason}",
+                        "Give me some infromation about the bank holidays"
+                    ]
+                },
+                {
+                    "name": "ReadHalfTerm",
+                    "slots": [
+                        {
+                            "name": "halftermseason",
+                            "type": "season"
+                        }
+                    ],
+                    "samples": [
+                        "Alexa give me some information about half term",
+                        "alexa read half term",
+                        "what date is half term",
+                        "when is the date for half term",
+                        "give me the date for half term",
+                        "when the {halftermseason} half term starts",
+                        "when the {halftermseason} half term is",
+                        "what the {halftermseason} half term is",
+                        "when is the {halftermseason} half term",
+                        "whens the {halftermseason} half term",
+                        "can you give me the term dates for half term",
+                        "gives me the dates for half term",
+                        "when is half term",
+                        "What dates is half term",
+                        "Give me the dates for half term",
+                        "Give me the half terms dates",
+                        "Can you tell me when half term is",
+                        "Give me some information about half term"
+                    ]
+                },
+                {
+                    "name": "ReadNextHoliday",
+                    "slots": [],
+                    "samples": [
+                        "Alexa give me some information about next holiday",
+                        "alexa read next holiday",
+                        "tell me the next holiday for boarders",
+                        "give me the next holiday for boarders",
+                        "read the next holiday for boarders",
+                        "tell me when the next holiday is for boarders is",
+                        "whats the next holiday for boarders",
+                        "boarders next holiday",
+                        "when the next holiday starts",
+                        "whats the next holiday",
+                        "whens the next holiday",
+                        "when is the next holiday",
+                        "What is the next holiday",
+                        "When does the next holiday starts",
+                        "Give me the dates for the next holiday",
+                        "Tell me when the next holiday is",
+                        "What's the next holiday",
+                        "When's the next holiday",
+                        "Next holiday",
+                        "Tell me the next holiday for students",
+                        "Give me the next holiday for students",
+                        "Read out when the next holiday for students is",
+                        "Can you tell me when the next holiday is for students is",
+                        "What's the next holiday for students",
+                        "Students' next holiday",
+                        "Tell me the next holiday for childrens",
+                        "Give me the next holiday for children",
+                        "Read out when the next holiday for childrens is",
+                        "Can you tell me when the next holiday is for children is",
+                        "What's the next holiday for children",
+                        "Children's next holiday",
+                        "Tell me the next holiday for schoolchildrens",
+                        "Give me the next holiday for schoolchildren",
+                        "Read out when the next holiday for schoolchildrens is",
+                        "Can you tell me when the next holiday is for schoolchildren is",
+                        "What's the next holiday for schoolchildren",
+                        "Schoolchildren's next holiday",
+                        "Tell me the next holiday for pupils",
+                        "Give me the next holiday for pupils",
+                        "Read out when the next holiday for pupils is",
+                        "Can you tell me when the next holiday is for pupils is",
+                        "What's the next holiday for pupils",
+                        "Pupil's next holiday",
+                        "Give me some information about the next holiday"
+                    ]
+                },
+                {
+                    "name": "OurFallbackIntent",
+                    "slots": [
+                        {
+                            "name": "gumpf",
+                            "type": "AMAZON.GB_FIRST_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "{gumpf}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "please again",
+                        "again please",
+                        "please what did you say",
+                        "please say that again",
+                        "i can't heard that",
+                        "i can't hear that",
+                        "sorry what did you say",
+                        "sorry",
+                        "again",
+                        "repeat",
+                        "please repeat",
+                        "please repeat that",
+                        "what was that",
+                        "what did you say",
+                        "say that again",
+                        "repeat that"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "season",
+                    "values": [
+                        {
+                            "id": "ALLOFTHEM",
+                            "name": {
+                                "value": "all of them",
+                                "synonyms": [
+                                    "all of them"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "NEXT",
+                            "name": {
+                                "value": "next",
+                                "synonyms": [
+                                    "coming",
+                                    "following",
+                                    "next"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "october",
+                            "name": {
+                                "value": "october",
+                                "synonyms": [
+                                    "october"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "february",
+                            "name": {
+                                "value": "february",
+                                "synonyms": [
+                                    "february"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "may",
+                            "name": {
+                                "value": "may",
+                                "synonyms": [
+                                    "may",
+                                    "end of may",
+                                    "spring bank holiday",
+                                    "early may"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "nyd",
+                            "name": {
+                                "value": "new years day",
+                                "synonyms": [
+                                    "new years day"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "christmas",
+                            "name": {
+                                "value": "christmas",
+                                "synonyms": [
+                                    "Christmas",
+                                    "Christmas Eve",
+                                    "Christmas night",
+                                    "Christmas Day",
+                                    "christmas",
+                                    "boxing day"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "easter",
+                            "name": {
+                                "value": "easter",
+                                "synonyms": [
+                                    "Easter",
+                                    "easter",
+                                    "good friday"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "summer",
+                            "name": {
+                                "value": "summer",
+                                "synonyms": [
+                                    "Summer",
+                                    "sunny",
+                                    "sunny season",
+                                    "summer"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "year",
+                    "values": [
+                        {
+                            "id": "2019",
+                            "name": {
+                                "value": "two thousand and nineteen",
+                                "synonyms": [
+                                    "this year",
+                                    "twenty nineteen",
+                                    "two thousand and nineteen",
+                                    "2019"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2018",
+                            "name": {
+                                "value": "two thousand and eighteen",
+                                "synonyms": [
+                                    "last year",
+                                    "twenty eighteen",
+                                    "2018",
+                                    "two thousand and eighteen"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "AMAZON.GB_FIRST_NAME",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "hio dkhd"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hello "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dolk hhsh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sdfsd"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sdfkjsdjklfs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "uhjd flisd gh jhsdl fsdif f"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "ReadTermDates",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "season",
+                            "type": "season",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.469535160799.1188150204176"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.1295000401592.1100776759758.826535131725",
+                                    "values": [
+                                        "Easter",
+                                        "Christmas",
+                                        "Summer",
+                                        "easter",
+                                        "christmas",
+                                        "summer"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "year",
+                            "type": "year",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.469535160799.148984959586"
+                            },
+                            "validations": [
+                                {
+                                    "type": "hasEntityResolutionMatch",
+                                    "prompt": "Slot.Validation.361799498453.309875097579.146495079741"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ReadBankHolidays",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "bankseason",
+                            "type": "season",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1500272900839.1424085487941"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.1489453128712.48417083469.891259750030",
+                                    "values": [
+                                        "Easter",
+                                        "Christmas",
+                                        "may",
+                                        "May",
+                                        "Summer",
+                                        "easter",
+                                        "christmas",
+                                        "summer"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ReadHalfTerm",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "halftermseason",
+                            "type": "season",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.874670845004.293741582139"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.808336617131.1180747212413.1258983574886",
+                                    "values": [
+                                        "October",
+                                        "may",
+                                        "May",
+                                        "february",
+                                        "october",
+                                        "February"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "SKILL_RESPONSE"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1149138038719.964474289198",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry did you say start, half or end?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.469535160799.1188150204176",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Which term dates are you looking for - Christmas, Summer, or Easter?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.469535160799.148984959586",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Great, what year?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Okay, what year?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Fantastic, what year?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1500272900839.1424085487941",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Is there a particular bank holiday you require"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.874670845004.293741582139",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Which half term are you looking for, February half term, May half term, Or October half term?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.689972152747.210234459098",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "please provide year?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1456934219893.965131067226",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "PLEASE PROVIDE TEST?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.703164083057.841921554947",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "what date?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.703164083057.1542285031121",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "what season?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.361799498453.309875097579.146495079741",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "{year} is not a valid year, are you looking for year two thousand and eighteen or year two thousand and nineteen?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1295000401592.1100776759758.826535131725",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "{season} is not a valid season, Which term dates are you looking for, christmas, summer, Or easter?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1489453128712.48417083469.891259750030",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I'm sorry, I didn't understand {bankseason} , you can ask me when the bank holidays may, easter, summer, christmas term dates start and end"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.808336617131.1180747212413.1258983574886",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I'm sorry, I didn't understand {halftermseason} , you can ask me when the october, february and may holidays are for boarders"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1485799542507.686045144759.859954632520",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "please say james"
+                    }
+                ]
+            }
+        ]
+    }
+}
